@@ -10,6 +10,9 @@ namespace ArrayLab
     {
         static void Main(string[] args)
         {
+            BaseballArray baseballArray = new BaseballArray();
+            baseballArray.AddUserInput();
+            baseballArray.CalculateSlugPercentage();
         }
     }
 }
